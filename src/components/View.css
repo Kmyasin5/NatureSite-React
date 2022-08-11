@@ -1,0 +1,26 @@
+.view {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.view .container {
+    display: flex;
+    padding: 0 1rem;
+}
+
+.view h2 {
+    font-size: 35px;
+}
+
+.do {
+    font-size: 25px;
+    text-decoration: underline;
+    color: purple;
+    font-weight: 600;
+}
+
+@media screen and (max-width:940px) {
+    .view .container {
+        grid-template-columns: 1fr;
+    }
+}
